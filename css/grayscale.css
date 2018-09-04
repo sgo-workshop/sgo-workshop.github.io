@@ -104,9 +104,9 @@
 
 .masthead h1 {
   font-family: 'Varela Round';
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.5rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.15));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -114,7 +114,17 @@
 
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: .8rem;
+}
+
+.btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1rem 1rem;
+  font-family: 'Varela Round';
+  font-size: 60%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
 }
 
 @media (min-width: 768px) {
@@ -122,6 +132,15 @@
     font-size: 4rem;
     line-height: 4rem;
   }
+  .btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round';
+  font-size: 90%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
 }
 
 @media (min-width: 992px) {
@@ -138,16 +157,7 @@
     max-width: 30rem;
     font-size: 1.5rem;
   }
-}
 
-.btn {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: .15rem;
-  border: 0;
 }
 
 .btn-primary {
