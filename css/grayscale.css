@@ -88,6 +88,10 @@
     border-bottom: 0.25rem solid #64a19d;
   }
 }
+.services-section img {
+    margin: auto;    
+    display: block;
+}
 
 .masthead {
   position: relative;
