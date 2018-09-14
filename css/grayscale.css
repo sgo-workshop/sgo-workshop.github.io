@@ -168,7 +168,7 @@
   .masthead h1 {
     font-size: 4.5rem;
     line-height: 4.5rem;
-    letter-spacing: 0.8rem;
+    letter-spacing: 0.5rem;
   }
   .masthead h2 {
     max-width: 30rem;
@@ -311,6 +311,13 @@ a:focus, a:hover {
   text-decoration: none;
   color: #3c6360;
 }
+
+a.pagelink:link,
+a.pagelink:visited,
+a.pagelink:active { color: inherit; text-decoration: none; }
+
+a.pagelink:hover { color: #006699; text-decoration: none; }
+
 
 .bg-black {
   background-color: #161616 !important;
