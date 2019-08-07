@@ -133,8 +133,8 @@
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
    letter-spacing: 0.5rem;
   }
   .btn {
@@ -166,8 +166,8 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 4.5rem;
-    line-height: 4.5rem;
+    font-size: 3.0rem;
+    line-height: 3.0rem;
     letter-spacing: 0.5rem;
   }
   .masthead h2 {
