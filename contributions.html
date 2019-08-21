@@ -35,6 +35,414 @@
     </nav>
     
       <section id="CFC" class="about-section text-center">
+<<<<<<< HEAD
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-white mb-4">Call for Contributions</h2>
+              <!-- <h4 class="text-white-75"> Submission Site</h4><br> -->
+              <p class="text-white-75"><a href="https://sgo-workshop.github.io/index_2018.html">Last year’s workshop</a> addressed theoretical aspects of games in machine learning, their special dynamics, and typical challenges. Talks by Costis Daskalakis, Niao He, Jacob Abernethy and Paulina Grnarova emphasized various fundamental topics in a pure, simplified theoretical setting. A number of contributed talks and posters tackled similar questions. The workshop culminated in a <a href="https://www.youtube.com/watch?v=shyyPIPxwaM&feature=youtu.be&t=86">panel discussion</a> that identified a number of interesting questions:
+              <ul class="text-white-75 text-justify">
+              <li>How can we integrate learning with game theory?</li>
+              <li>How can we inject deep learning into games and vice-versa (eg.  actor-critic formulations can be cast as a game)?</li>
+              <li>What are the practical implications and applications? </li>
+              <li>How do we go beyond the standard GAN discussion and model general agents that interact with each other in a learning context? </li>
+              <li>What can we say about the existence and uniqueness results of equilibria in smooth games.</li>
+              <li>Can we approximate mixed equilibria have better properties than the exact ones?~\citep{arora2017generalization,lipton2002simple}</li>
+              <li>Finally, how do we design better objectives to match a specific ML task at hand?</li>
+            </p>
+              <p class="text-white-75">
+                We are soliciting contributions that address one of the above questions, or secondarily, another question on the intersection of modern machine learning and games. This year we are particularly interested in accepting work that uses non-standard formulations and applications for games in ML. 
+              <h4 class="text-white-75"> Examples of Topics of Interest to the Workshop (beyond the 7 main questions above):</h4>
+              <ul class="text-white-75 text-justify">
+                We invite researchers to submit work in any related areas, including for example:
+                <li>Other examples of smooth games in machine learning (e.g. actor-critic models in RL).</li>
+                <li>Standard or novel algorithms to solve smooth games. (e.g. Hamiltonian games [Balduzzi et al. 2018])</li>
+                <li>Empirical test of algorithms on GAN applications.</li>
+                <li>Existence and unicity results of equilibria in smooth games.</li>
+                <li>Can approximate mixed equilibria have better properties than the exact ones ? [Arora 2017, Lipton and Young 1994].</li>
+                <li>Variational inequality algorithms [Harker and Pang 1990, Gidel et al. 2018].</li>
+                <li>Handling stochasticity [Hazan et al. 2017] or non-convexity [Grnarova et al. 2018] in smooth games.</li>
+                <li>Related topics from mathematical programming (e.g. bilevel optimization) [Pfau and Vinyals 2016].</li>
+                Please be mindful of the target topics. Topic relevance will be a primordial acceptance criterion.
+              </ul>
+              <h4 class="text-white-75"> Submission details </h4>
+              <p class="text-white-75 text-lg-left">
+                A submission should take the form of an <b>anonymous</b> extended abstract (2-4 pages long <b>excluding references</b>) in PDF format using the following <a href="template/neurips_2019.sty">modified NeurIPS style</a>. The submission process will be handled via
+                <a href= "https://cmt3.research.microsoft.com/SGOML2019">CMT</a>.
+                Previously published work (or under-review) is acceptable, though it needs to be clearly indicated as published work when submitting. Please provide as a footnote in the actual pdf indicating the venue where the work has been submitted.
+                Submissions can be accepted as contributed talks, spotlight or poster presentations (all accepted submissions can have a poster). Extended abstracts must be submitted by September 15, 2019 (11:59pm AoE). Final versions will be posted on the workshop website (and are archival but <b>do not constitute a proceedings</b>).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--   <section id="Papers" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+              <div class="text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 class="text-white">Contributions</h4>
+                    <p class="mb-0 text-white-50">
+                    <hr class="d-none d-lg-block mb-0 ml-0">
+                    <div class="row no-gutters mb-4 mb-lg-5">
+              <ul class="text-white-75 text-justify">
+              <li>  
+                  <a href="papers/2/sgo.pdf">
+                  An Adversarial Labeling Game for Learning from Weak Supervision;  Chidubem Arachie and Bert Huang.
+                </a>
+                </li>
+                <li>
+                  <a href="papers/3/sgo.pdf">
+                  Provable Non-Convex Min-Max Optimization;
+                  Mingrui Liu,
+                  Rafique Hassan,
+                  Qihang Lin and
+                  Tianbao Yang.
+                </a>
+                </li>
+                <li>
+                  <a href="papers/4/sgo.pdf">
+                  Finding Mixed Nash Equilibria of Generative Adversarial Networks;  
+                   Ya-Ping Hsieh,
+                  Chen Liu and
+                  Volkan Cevher. (ORAL)
+                </a>
+                </li>
+                <li>
+                  <a href="papers/6/sgo.pdf">
+                  Multi-objective training of Generative Adversarial Networks with multiple discriminators;
+                  Isabela Albuquerque,
+                  Joao Monteiro,
+                  Thang Doan, 
+                  Breandan Considine, 
+                  Tiago Falk and 
+                  Ioannis Mitliagkas.
+                </a>
+                </li>
+                <li>
+                  <a href="papers/7/sgo.pdf">
+                  A Variational Inequality Perspective on Generative Adversarial Networks;
+                  Gauthier Gidel, 
+                  Hugo Berard, 
+                  Gaëtan Vignoud, 
+                  Pascal Vincent and
+                  Simon Lacoste-Julien.
+                </a>
+                </li>
+                <li>
+                  <a href="papers/8/sgo.pdf">
+                  Bounding Inefficiency of Equilibria in Continuous Actions Games using Submodularity and Curvature;
+                  Pier Giuseppe Sessa, 
+                  Maryam Kamgarpour and
+                  Andreas Krause. (ORAL)
+                </a>
+                </li>
+                <li>
+                  <a href="papers/9/sgo.pdf">
+                  Generalized Mirror Prox Algorithm for Variational Inequalities;
+                  Pavel Dvurechensky, 
+                  Alexander Gasnikov, 
+                  Fedor Stonyakin and 
+                  Alexander Titov.
+                </a>
+                </li>
+                <li>
+                  <a href="papers/10/sgo.pdf">
+                  Solving differential games by methods for finite-dimensional saddle-point problems;
+                  Pavel Dvurechensky, 
+                  Yurii Nesterov and 
+                  Vladimir Spokoiny.
+                </a>
+                </li>
+                <li>
+                  <a href="papers/11/sgo.pdf">
+                  On the convergence of stochastic forward-backward-forward algorithms with variance reduction in pseudo-monotone variational inequalities;
+                  Mathias Staudigl, 
+                  Radu Ioan Bot, 
+                  Phan Tu Vuong and 
+                  Panayotis Mertikopoulos.
+                </a>
+                </li>
+                <li>
+                  <a href="papers/12/sgo.pdf">
+                  Regret Decomposition in Sequential Games with Convex Action Spaces and Losses;
+                  Gabriele Farina, 
+                  Christian Kroer and 
+                  Tuomas Sandholm. (ORAL)
+                </a>
+                </li>
+                <li>
+                  <a href="papers/13/sgo.pdf">
+                  Negative Momentum for Improved Game Dynamics;
+                  Gauthier Gidel, 
+                  Reyhane Askari Hemmat, 
+                  Mohammad Pezeshki, 
+                  Rémi Le Priol, 
+                  Gabriel Huang, 
+                  Simon Lacoste-Julien and 
+                  Ioannis Mitliagkas. (ORAL)
+                </a>
+                </li>
+                <li>
+                  <a href="papers/14/sgo.pdf">
+                  Model Compression with Generative Adversarial Networks;
+                  Ruishan Liu, 
+                  Nicolo Fusi and 
+                  Lester Mackey.
+                </a>
+                </li>
+                <li>
+                  <a href="papers/16/sgo.pdf">
+                  A GAN framework for Instance Segmentation using the Mutex Watershed Algorithm;
+                  Mandikal Vikram and
+                  Steffen Wolf.
+                </a>
+                </li>
+                  </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <section id="Schedule" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div id="Schedule" class="row justify-content-center no-gutters">
+            <div class="col-lg-12">
+              <div class="bg-dark text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 class="text-white">Morning Schedule</h4>
+                    <table class="table table-dark table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">Time</th>
+                          <th scope="col">Speaker</th>
+                          <th scope="col">Title</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">8:30</th>
+                          <td>Simon Lacoste-Julien <hr> Gauthier Gidel</td>
+                          <td>Opening remarks <hr> Smooth game optimization ? </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">8:50</th>
+                          <td>
+                            Invited talk #1: <hr>
+                            <a href="#costis">Constantinos Daskalakis</a></td>
+                          <td> - <hr>
+                            Improving Generative Adversarial Networks using Game Theory and Statistics <a href="#costis">[abstract]</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">9:30</th>
+                          <td>Poster spotlight: <hr>
+                          Tianbao Yang <hr>
+                          Pavel Dvurechensky <hr>
+                          Pavel Dvurechensky <hr>
+                          Panayotis Mertikopoulos<br>- <hr>
+                          Hugo Berard 
+                          </td>
+                          <td>
+                            -
+                          <hr>
+                          Provable Non-Convex Min-Max Optimization.<hr>
+                          Solving differential games by methods for finite-dimensional saddle-point problems.  <hr>
+                          Generalized Mirror Prox Algorithm for Variational Inequalities. <hr>
+                          On the convergence of stochastic forward-backward-forward algorithms with variance reduction in pseudo-monotone variational inequalities.
+                          <hr>
+                          A Variational Inequality Perspective on Generative Adversarial Networks.
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">10:00</th>
+                          <td>Poster session</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">10:30</th>
+                          <td>Poster session + Coffee break</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">11:00</th>
+                          <td> Invited talk #2: <hr>
+                            <a href="#niao">Niao He</a></td>
+                          <td> - <hr>
+                            Smooth Games in Machine Learning Beyond GANs
+                            <br><a href="#niao">[abstract]</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">11:40</th>
+                          <td>Contributed Talk #1:
+                          <hr> 
+                          Volkan Cevher
+                          </td>
+                          <td>
+                            - <hr>
+                          Finding Mixed Nash Equilibria of Generative Adversarial Networks.</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">12:00</th>
+                          <td>Contributed talk #2: <hr>
+                          Pier Giuseppe Sessa
+                          </td>
+                          <td>
+                          - <hr>
+                          Bounding Inefficiency of Equilibria in Continuous Actions Games using Submodularity and Curvature.</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">12:20</th>
+                          <td>Lunch break</td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <hr class="d-none d-lg-block mb-0 mr-0">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="bg-grey text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 class="text-white">Afternoon Schedule</h4>
+                    <table class="table table-dark table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">Time</th>
+                          <th scope="col">Speaker</th>
+                          <th scope="col">Title</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">14:00</th>
+                          <td> Invited talk #3: <hr>
+                            <a href="#jacob">Jacob Abernethy</a></td>
+                          <td>- <hr>
+                            Building Algorithms by Playing Games
+                            <br><a href="#jacob">[abstract]</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">14:40</th>
+                          <td>Contributed talk #3: <hr>
+                          Reyhane Askari Hemmat
+                          </td>
+                          <td> - <hr>
+                          Negative Momentum for Improved Game Dynamics.</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">15:00</th>
+                          <td>Coffee break</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">15:30</th>
+                          <td>Contributed talk #4: <hr>
+                          Gabriele Farina
+                          </td>
+                          <td> - <hr>
+                            Regret Decomposition in Sequential Games with Convex Action Spaces and Losses.
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">15:50</th>
+                          <td> Invited talk #4: <hr>
+                            <a href="#paulina">Paulina Grnarova</a></td>
+                          <td> -<hr>
+                            An interpretation of GANs via online learning and game theory<br>
+                          <a href="#paulina">[abstract]</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">16:30</th>
+                          <td>Poster spotlight: <hr>
+                          Nicolo Fusi <hr>
+                          Chidubem Arachie <hr>
+                          Joao Monteiro <hr>
+                          Steffen Wolf
+                          </td>
+                          <td> - <hr>
+                          Model Compression with Generative Adversarial Networks.<hr>
+                          An Adversarial Labeling Game for Learning from Weak Supervision.<hr>
+                          Multi-objective training of Generative Adversarial Networks with multiple discriminators. <hr>
+                          A GAN framework for Instance Segmentation using the Mutex Watershed Algorithm.
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">17:00</th>
+                          <td>Discussion panel: <hr> 
+                          Simon Lacoste-Julien</td>
+                          <td> Panel with the invited speakers: <hr>
+                          Constantinos Daskalakis, Niao He, Jacob Abernethy, Paulina Grnarova </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">17:30</th>
+                          <td>Organizers</td>
+                          <td>Concluding remarks</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">17:40</th>
+                          <td>Poster session</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">18:30</th>
+                          <td>Workshop ends</td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <hr class="d-none d-lg-block mb-0 mr-0">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Committee" class="projects-section bg-light">
+        <h2 class="text-black mb-4 text-center">Organizers</h2>
+        <div class="container">
+          <div class="row no-gutters mb-4 mb-lg-5">
+              <div class="col-xl-3 col-lg-3">
+                <img class="img-fluid mb-3 mb-lg-0" src="img/SLJ.jpg" alt="">
+              </div>
+              <div class="col-xl-8 col-lg-8">
+                <div class="featured-text text-center text-lg-left">
+                  <h4>
+                  <a href="https://www.di.ens.fr/~slacoste/" class="pagelink">
+                    Simon Lacoste-Julien (Mila & University of Montreal)
+                </a></h4>
+                <p class="text-black-50 mb-0">
+                  Simon Lacoste-Julien is a CIFAR fellow and an assistant professor at Mila and DIRO from Université de Montréal. His research interests are machine learning and applied math, with applications to computer vision and natural language processing. He obtained a B.Sc. in math., physics and computer science from McGill, a PhD in computer science from UC Berkeley and a post-doc from the University of Cambridge. He spent a few years as a research faculty at INRIA and École normale supérieure in Paris before coming back to his roots in Montreal in 2016.
+                  <br>
+                  Simon published several papers at the intersection of mathematical programming and machine learning, and in particular for solving min-max games. He is a frequent participant to the NeurIPS OPT workshop series, and co-organized the NeurIPS 2009 workshop on <a href="www.gen-disc2009.wikidot.com"> “The Generative & Discriminative Learning Interface” </a>. </p>
+                </div>
+              </div>
+            </div>
+            <div class="row no-gutters mb-4 mb-lg-5">
+              <div class="col-xl-3 col-lg-3">
+                <img class="img-fluid mb-3 mb-lg-0" src="img/yannis.jpg" alt="">
+              </div>
+              <div class="col-xl-8 col-lg-8">
+                <div class="featured-text text-center text-lg-left">
+                  <h4>
+                  <a href="http://mitliagkas.github.io" class="pagelink">
+                    Ioannis Mitliagkas (Mila & University of Montreal)
+                  </a></h4>
+                  <p class="text-black-50 mb-0">
+                    Ioannis Mitliagkas is an assistant professor in the department of Computer Science and Operations Research (DIRO) at the University of Montréal. Before that, he was a Postdoctoral Scholar with the departments of Statistics and Computer Science at Stanford University. He obtained his Ph.D. from the department of Electrical and Computer Engineering at The University of Texas at Austin. His research includes topics in optimization, statistical learning and inference, and efficient large-scale and distributed algorithms.
+                    <br>
+                    He is particularly interested in the dynamics of optimization, like momentum methods, in the presence of system dynamics, adaptivity, and lately, smooth two-player games (ongoing work).
+=======
               <div class="container">
                 <div class="row">
                   <div class="col-lg-8 mx-auto">
@@ -60,6 +468,7 @@
                     <li>Can we compare the quality/performance of Nash equilibria/cycles ? Are there points that have a better quality/outcome than Nash equilibria ? [Kleinberg et al. 2011]</li>
                     <li>How do we design efficient algorithms that are guaranteed to achieve the desired solutions? </li>
                     <li>Finally, how do we design better objectives to match a specific ML task at hand?</li>
+>>>>>>> 87bf2fcb64d7862d02a2ab8dc8b86c8ae3da0484
                   </p>
                     <h4 class="text-white-75"> Submission details </h4>
                     <p class="text-white-75 text-lg-left">
