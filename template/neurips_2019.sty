@@ -4,7 +4,7 @@
 % - uses more LaTeX conventions
 % - line numbers at submission time replaced with aligned numbers from
 %   lineno package
-% - \nipsfinalcopy replaced with [final] package option
+% - \neuripsfinalcopy replaced with [final] package option
 % - automatically loads times package for authors
 % - loads natbib automatically; this can be suppressed with the
 %   [nonatbib] package option
@@ -18,7 +18,7 @@
 % last revision: March 2019
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{neurips_2019}[2019 Smooth Games Optimization and Machine Learning Workshop - NeurIPS 2019 submission/camera-ready style file]
+\ProvidesPackage{neurips_2019}[2019/03/13 NeurIPS 2019 submission/camera-ready style file]
 
 % declare final option, which creates camera-ready copy
 \newif\if@neuripsfinal\@neuripsfinalfalse
@@ -65,12 +65,11 @@
 \else
   \if@neuripsfinal
     \newcommand{\@noticestring}{%
-     Abstract for: Smooth Games Optimization and Machine Learning Workshop
-      (NIPS \@nipsyear), \@nipslocation.%
+Abstract for: Smooth Games Optimization and Machine Learning Workshop      (NeurIPS \@neuripsyear), \@neuripslocation.%
     }
   \else
     \newcommand{\@noticestring}{%
-            Submitted to Smooth Games Optimization and Machine Learning Workshop (NeurIPS \@nipsyear). Do not distribute.%
+      Submitted to  Smooth Games Optimization and Machine Learning Workshop (NeurIPS \@neuripsyear). Do not distribute.%
     }
 
     % line numbers for submission
