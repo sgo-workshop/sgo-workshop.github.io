@@ -71,69 +71,14 @@
     <!-- About Section -->
     <section id="about" class="about-section text-center">
       <div class="container">
-         <!-- <div class="row no-gutters mb-3 mb-lg-5 " id="logo">    
-          <div class="col-5 offset-lg-2">
-              <img class="img-fluid mb-2 mb-lg-0" src="img/ivado.png" alt="">
-            </div>
-            <div class="col-3 offset-lg-0 offset-4">
-              <img class="img-fluid mb-2 mb-lg-0" src="img/Mila.png" alt="">
-            </div>
-          </div> -->
+        <h2 class="text-white mb-4">Overview</h2>
+        <p class="text-white-75">
+          Advances in generative modeling and adversarial learning have given rise to renewed interest in differentiable two-players games, with much of the attention falling on generative adversarial networks (GANs). Solving these games introduces distinct challenges compared to the standard minimization tasks that the machine learning (ML) community is used to. A symptom of this issue is ML and deep learning (DL) practitioners using optimization tools on game-theoretic problems. Recent work seeks to rectify this situation by bringing game theoretic tools into ML. At NeurIPS 2018 we held “Smooth games optimization in ML”, a workshop with this scope and goal in mind.
+
+        <a href="https://sgo-workshop.github.io/index_2018.html">Last year’s workshop</a> addressed theoretical aspects of games in machine learning, their special dynamics, and typical challenges. Talks by Costis Daskalakis, Niao He, Jacob Abernethy and Paulina Grnarova emphasized various fundamental topics in a pure, simplified theoretical setting. A number of contributed talks and posters tackled similar questions. The workshop culminated in a <a href="https://www.youtube.com/watch?v=shyyPIPxwaM&feature=youtu.be&t=86">panel discussion</a> that identified a number of interesting questions.
+        The aim of this workshop is to provide a platform for both theoretical and applied researchers from the ML, mathematical programming and game theory community to discuss the status of our understanding on the interplay between smooth games, their applications in ML, as well existing tools and methods for dealing with them. We are looking for contributions that identifies and discusses open, forward-looking problems of interest to the NeurIPS community. </p>
+        
         <div class="row">
-          <!-- <div class="col-lg-8 mx-auto">
-            <h2 class="text-white mb-4">Overview</h2>
-            <p class="text-white-75 text-justify">
-              <p class="text-white-75">Advances in generative modeling and adversarial learning have given rise to renewed interest in differentiable two-players games, with much of the attention falling on generative adversarial networks (GANs). Solving these games introduces distinct challenges compared to the standard minimization tasks that the machine learning (ML) community is used to. A symptom of this issue is ML and deep learning (DL) practitioners using optimization tools on game-theoretic problems. Recent work seeks to rectify this situation by bringing game theoretic tools into ML. At NeurIPS 2018 we held “Smooth games optimization in ML”, a workshop with this scope and goal in mind.</p>
-            </div>
-          </div>
-        </div> -->
-      </section>
-      <!-- About Section -->
-      <section id="CFC" class="about-section text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-white mb-4">Overview</h2>
-              <!-- <h4 class="text-white-75"> Submission Site</h4><br> -->
-              <p class="text-white-75">
-                Advances in generative modeling and adversarial learning have given rise to renewed interest in differentiable two-players games, with much of the attention falling on generative adversarial networks (GANs). Solving these games introduces distinct challenges compared to the standard minimization tasks that the machine learning (ML) community is used to. A symptom of this issue is ML and deep learning (DL) practitioners using optimization tools on game-theoretic problems. Recent work seeks to rectify this situation by bringing game theoretic tools into ML. At NeurIPS 2018 we held “Smooth games optimization in ML”, a workshop with this scope and goal in mind.
-
-              <a href="https://sgo-workshop.github.io/index_2018.html">Last year’s workshop</a> addressed theoretical aspects of games in machine learning, their special dynamics, and typical challenges. Talks by Costis Daskalakis, Niao He, Jacob Abernethy and Paulina Grnarova emphasized various fundamental topics in a pure, simplified theoretical setting. A number of contributed talks and posters tackled similar questions. The workshop culminated in a <a href="https://www.youtube.com/watch?v=shyyPIPxwaM&feature=youtu.be&t=86">panel discussion</a> that identified a number of interesting questions.
-              The aim of this workshop is to provide a platform for both theoretical and applied researchers from the ML, mathematical programming and game theory community to discuss the status of our understanding on the interplay between smooth games, their applications in ML, as well existing tools and methods for dealing with them. We are looking for contributions that identifies and discusses open, forward-looking problems of interest to the NeurIPS community. </p>
-              
-              <h4 class="text-white-75"> Call for Contributions</h4>
-              <p class="text-white-75">We are soliciting contributions that address one of the below questions, or secondarily, another question on the intersection of modern machine learning and games. This year we are particularly interested in accepting work that uses non-standard formulations and applications for games in ML. 
-
-              <ul class="text-white-75 text-justify">
-              <li>How can we integrate learning with game theory? (e.g. [Schuurmans et al., 2016]) </li>
-              <li>How can we inject deep learning into games and vice-versa (eg.  actor-critic formulations can be cast as a game)?</li>
-              <li>What are the practical implications and applications? </li>
-              <li>How do we go beyond the standard GAN discussion and model general agents that interact with each other in a learning context?</li>
-              <li>What can we say about the existence and uniqueness results of equilibria in smooth games?</li>
-              <li>Can we approximate mixed equilibria have better properties than the exact ones? [Arora, S., Ge, R., Liang, Y., Ma, T., Zhang, 2017]  [Lipton et al., 2002]</li>
-              <li>Can we define a weaker notion of  solution than Nash Equilibria? [Papadimitriou, Piliouras, 2018]</li>
-              <li>Can we compare the quality/performance of Nash equilibria/cycles ? Are there points that have a better quality/outcome than Nash equilibria ? [Kleinberg et al. 2011]</li>
-              <li>How do we design efficient algorithms that are guaranteed to achieve the desired solutions? </li>
-              <li>Finally, how do we design better objectives to match a specific ML task at hand?</li>
-            </p>
-              <h4 class="text-white-75"> Submission details </h4>
-              <p class="text-white-75 text-lg-left">
-                A submission should take the form of an <b>anonymous</b> extended abstract (2-4 pages long <b>excluding references</b>) in PDF format using the following <a href="template/neurips_2019.sty">modified NeurIPS style</a>. The submission process will be handled via
-                <a href= "https://cmt3.research.microsoft.com/SGOML2019">CMT</a>.
-                Previously published work (or under-review) is acceptable, though it needs to be clearly indicated as published work when submitting. Please provide as a footnote in the actual pdf indicating the venue where the work has been submitted.
-                Submissions can be accepted as contributed talks, spotlight or poster presentations (all accepted submissions can have a poster). Extended abstracts must be submitted by September 16, 2019 (11:59pm AoE). Final versions will be posted on the workshop website (and are archival but <b>do not constitute a proceedings</b>).
-              </p>
-              <p>
-                A limited number of NeurIPS registration slots will be available for accepted talks and posters to this workshop. We do not have control over the number, so it might happen that not all accepted posters get a slot. We strongly advise you to first try to register through the NeurIPS lottery to increase your chances of getting a registration slot. If you get a registration slot it means that you are guaranteed the ability to register, but you will have to pay for the registration.
-              </p>
-              <h2 class="text-white mb-4">Key Dates:</h2>
-              <ul class="list-group">
-                <li class="list-group-item list-group-item-dark">Abstract submission deadline: September 16, 2019 (11:59pm AoE) via <a href= "https://cmt3.research.microsoft.com/SGOML2019">CMT</a></li>
-                <li class="list-group-item list-group-item-dark">Acceptance notification: October 1, 2019</li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </section>
       <!-- Projects Section -->
       <section id="Speakers" class="projects-section bg-light">
@@ -219,27 +164,27 @@
               </div>
             </div>
           </div>
-          <div class="row no-gutters mb-4 mb-lg-5" id="asu">
+          <div class="row no-gutters mb-4 mb-lg-5" id="Aryan">
             <div class="col-xl-3 col-lg-3">
-              <img class="img-fluid mb-3 mb-lg-0" src="img/asu.jpg" alt="">
+              <img class="img-fluid mb-3 mb-lg-0" src="img/Aryan.jpg" alt="">
             </div>
             <div class="col-xl-9 col-lg-9">
               <div class="featured-text text-center text-lg-left">
                 <h4>
-                <a href="https://asu.mit.edu/" class="pagelink">
-                  Asu Ozdaglar (MIT)
+                <a href="http://sites.utexas.edu/mokhtari/" class="pagelink">
+                  Aryan Mokhtari (UT Austin)
                 </a></h4>
                 <h5>Title:</h5>
                 <p class="text-black-50 mb-0">
-                  Understanding the role of optimism in minimax optimization
+                  Understanding the Role of Optimism in Minimax Optimization: A Proximal Point Approach
                 </p>
                 <h5>Abstract:</h5>
                 <p class="text-black-50 mb-0 small">
-                  TBA.
+                  In this talk, we consider solving saddle point problems, and, in particular, we discuss the concept of “optimism” or “negative momentum” - a technique which is observed to have superior empirical performance in training GANs. The goal of this talk is to provide a theoretical understanding on why optimism helps, in particular why the Optimistic Gradient Descent Ascent (OGDA) algorithm performs well in practice. To do so, we first consider the classical Proximal Point algorithm which is an implicit algorithm to solve this problem. We then show that OGDA inherently tries to approximate the proximal point method, and this is the rationale behind the ‘’negative momentum” term in the update of OGDA. This proximal point approximation viewpoint also enables us to provide a much simpler analysis of another well studied algorithm - the Extra-Gradient (EG) method.
                 </p>
                 <h5>Short Bio:</h5>
                 <p class="text-black-50 mb-0 small">
-                  Since completing her graduate studies at MIT in 2003, Dr. Ozdaglar has been a faculty member in the Electrical Engineering and Computer Science Department at MIT. She is affiliated with LIDS and the Operations Research Center. Her research focuses on problems that arise in the analysis and optimization of large-scale dynamic multi-agent networked systems including communication networks, transportation networks, and social and economic networks.
+                  Aryan Mokhtari is an Assistant Professor in the ECE Department of the University of Texas at Austin (UT Austin). Before joining UT Austin, he was a Postdoctoral Associate in the Laboratory for Information and Decision Systems (LIDS) at MIT. Before that, he was a Research Fellow at the Simons Institute for the Theory of Computing at UC Berkeley. His research interests include the areas of optimization, machine learning, and artificial intelligence. His current research focuses on the theory and applications of convex and non-convex optimization in large-scale machine learning and data science problems.
                 </p>
               </div>
             </div>
@@ -380,10 +325,10 @@
                         <tr>
                           <th scope="row">16:00</th>
                           <td> Invited talk,
-                            <a href="#asu">Asu Ozdaglar</a></td>
+                            <a href="#Aryan">Aryan Mokhtari</a></td>
                           <td>
                             Understanding the role of optimism in minimax optimization<br>
-                          <a href="#asu">[abstract]</a></td>
+                          <a href="#Aryan">[abstract]</a></td>
                         </tr>
                         <tr>
                           <th scope="row">16:30</th>
@@ -404,7 +349,7 @@
                           <th scope="row">17:00</th>
                           <td>Discussion panel</td>
                           <td>
-                          Fei Fang, Eva Tardos, David Balduzzi, Asu Ozdaglar</td>
+                          Fei Fang, Eva Tardos, David Balduzzi, Aryan Mokhtari</td>
                         </tr>
                         <tr>
                           <th scope="row">17:30</th>
@@ -676,6 +621,46 @@
           </div>
         </div>
       </section>
+      <!-- CFP Section -->
+      <section id="CFC" class="about-section text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h4 class="text-white-75"> Call for Contributions</h4>
+              <p class="text-white-75">We are soliciting contributions that address one of the below questions, or secondarily, another question on the intersection of modern machine learning and games. This year we are particularly interested in accepting work that uses non-standard formulations and applications for games in ML. 
+
+              <ul class="text-white-75 text-justify">
+              <li>How can we integrate learning with game theory? (e.g. [Schuurmans et al., 2016]) </li>
+              <li>How can we inject deep learning into games and vice-versa (eg.  actor-critic formulations can be cast as a game)?</li>
+              <li>What are the practical implications and applications? </li>
+              <li>How do we go beyond the standard GAN discussion and model general agents that interact with each other in a learning context?</li>
+              <li>What can we say about the existence and uniqueness results of equilibria in smooth games?</li>
+              <li>Can we approximate mixed equilibria have better properties than the exact ones? [Arora, S., Ge, R., Liang, Y., Ma, T., Zhang, 2017]  [Lipton et al., 2002]</li>
+              <li>Can we define a weaker notion of  solution than Nash Equilibria? [Papadimitriou, Piliouras, 2018]</li>
+              <li>Can we compare the quality/performance of Nash equilibria/cycles ? Are there points that have a better quality/outcome than Nash equilibria ? [Kleinberg et al. 2011]</li>
+              <li>How do we design efficient algorithms that are guaranteed to achieve the desired solutions? </li>
+              <li>Finally, how do we design better objectives to match a specific ML task at hand?</li>
+            </p>
+              <h4 class="text-white-75"> Submission details </h4>
+              <p class="text-white-75 text-lg-left">
+                A submission should take the form of an <b>anonymous</b> extended abstract (2-4 pages long <b>excluding references</b>) in PDF format using the following <a href="template/neurips_2019.sty">modified NeurIPS style</a>. The submission process will be handled via
+                <a href= "https://cmt3.research.microsoft.com/SGOML2019">CMT</a>.
+                Previously published work (or under-review) is acceptable, though it needs to be clearly indicated as published work when submitting. Please provide as a footnote in the actual pdf indicating the venue where the work has been submitted.
+                Submissions can be accepted as contributed talks, spotlight or poster presentations (all accepted submissions can have a poster). Extended abstracts must be submitted by September 16, 2019 (11:59pm AoE). Final versions will be posted on the workshop website (and are archival but <b>do not constitute a proceedings</b>).
+              </p>
+              <p>
+                A limited number of NeurIPS registration slots will be available for accepted talks and posters to this workshop. We do not have control over the number, so it might happen that not all accepted posters get a slot. We strongly advise you to first try to register through the NeurIPS lottery to increase your chances of getting a registration slot. If you get a registration slot it means that you are guaranteed the ability to register, but you will have to pay for the registration.
+              </p>
+              <h2 class="text-white mb-4">Key Dates:</h2>
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-dark">Abstract submission deadline: September 16, 2019 (11:59pm AoE) via <a href= "https://cmt3.research.microsoft.com/SGOML2019">CMT</a></li>
+                <li class="list-group-item list-group-item-dark">Acceptance notification: October 1, 2019</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       <section id="Committee" class="projects-section bg-light">
         <h2 class="text-black mb-4 text-center">Organizers</h2>
         <div class="container">
@@ -784,62 +769,8 @@
                   </div>
                 </div>
               </div>
-            <!-- <h2 class="text-black mb-4 text-center">Advisors</h2>
-            <div class="row no-gutters mb-4 mb-lg-5">
-              <div class="col-xl-3 col-lg-5">
-                <img class="img-fluid mb-0 mb-lg-0" src="img/eva.jpg" alt="">
-              </div>
-              <div class="col-xl-9 col-lg-12">
-                <div class="featured-text text-center text-lg-left">
-                  <h4>
-                  <a href="http://www.cs.cornell.edu/~eva" class="pagelink">
-                    Éva Tardos (Cornell)
-                  </a></h4>
-                  <p class="text-black-50 mb-0">
-                    Éva Tardos is a Jacob Gould Schurman Professor of Computer Science at Cornell University, and she was Computer Science department chair from 2006 to 2010. She received her BA and PhD from Eötvös University in Budapest. She joined the faculty at Cornell in 1989. Tardos’s research interest is algorithms and algorithmic game theory.  She is most known for her work on network-flow algorithms and quantifying the efficiency of selfish routing. She has been elected to the National Academy of Engineering, the National Academy of Sciences, the American Academy of Arts and Sciences, and is an external member of the Hungarian Academy of Sciences.
-                    <br>
-                    Éva is a leading figure in the algorithmic game theory field. She is the recipient of a number of fellowships and awards including the Packard Fellowship, the Gödel Prize, Dantzig Prize, Fulkerson Prize, ETACS prize, and the IEEE Technical Achievement Award. She is editor editor-in-Chief of the Journal of the ACM, has been editor-in-Chief of SIAM Journal of Computing, and editor of several other journals including Combinatorica; she served as problem committee member for many conferences, and was program committee chair for the ACM-SIAM Symposium on Discrete Algorithms (1996), as well as FOCS’05, and EC’13.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row no-gutters mb-4 mb-lg-5">
-              <div class="col-xl-3 col-lg-5">
-                <img class="img-fluid mb-0 mb-lg-0" src="img/leon.jpg" alt="">
-              </div>
-              <div class="col-xl-9 col-lg-12">
-                <div class="featured-text text-center text-lg-left">
-                  <h4>
-                  <a href="http://leon.bottou.org" class="pagelink">
-                    Léon Bottou (FAIR)
-                  </a></h4>
-                  <p class="text-black-50 mb-0">
-                    Léon Bottou received the Diplôme d’Ingénieur de l’École Polytechnique (X84) in 1987, the Magistère de Mathématiques Fondamentales et Appliquées et d’Informatique from École Normale Supérieure in 1988, and a Ph.D. in Computer Science from Université de Paris-Sud in 1991. His research career took him to AT&T Bell Laboratories, AT&T Labs Research, NEC Labs America and Microsoft. He joined Facebook AI Research in 2015.
-                    <br>
-                    The long term goal of Léon’s research is to understand how to build human-level intelligence. Although reaching this goal requires conceptual advances that cannot be anticipated at this point, it certainly entails clarifying how to learn and how to reason. Leon Bottou best known contributions are his work on “deep” neural networks in the 90s, his work on large scale learning in the 00’s, and possibly his more recent work on causal inference in learning systems. Leon has also recently worked on the geometry of probability measures applied to Generative Adversarial Networks.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-              <div class="col-xl-3 col-lg-5">
-                <img class="img-fluid mb-0 mb-lg-0" src="img/sebastian.jpg" alt="">
-              </div>
-              <div class="col-xl-9 col-lg-12">
-                <div class="featured-text text-center text-lg-left">
-                  <h4>
-                  <a href="http://www.nowozin.net/sebastian" class="pagelink">
-                    Sebastian Nowozin (MSR Cambridge, UK)
-                  </a></h4>
-                  <p class="text-black-50 mb-0">
-                    Sebastian Nowozin is a Principal Researcher at Microsoft Research, Cambridge, UK, managing the Machine Intelligence and Perception group. He develops novel algorithms and models for artificial intelligence and machine learning applications.
-                    <br>
-                    Sebastian has recently been awarded the German Pattern Recognition Award 2016 and has published several fundamental papers on Generative adversarial networks.
-                  </p>
-                </div>
-              </div>
-            </div> -->
           </section>
+
           <section id="Refs" class="projects-section bg-light">
             <h2 class="text-black mb-4 text-center">Relevant References</h2>
             <div class="container">
